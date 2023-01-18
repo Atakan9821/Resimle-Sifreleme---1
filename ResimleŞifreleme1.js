@@ -1,5 +1,3 @@
-
-
 var çıktıElementi = document.getElementsByClassName('mesajlar')[0]
 var mesajListesi = []
 var resimListesi = []
