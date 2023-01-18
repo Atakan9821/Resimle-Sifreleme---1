@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#ortak-anahtar{
+    width: 4rem;
+}
+
+.çıktı{
+    margin: 2rem;
+    margin-top: 5rem;
+}
+
+.girdi{
+    margin: 2rem;
+}
+
+.mesaj-no{
+    display: inline;
+}
+
+.resim-çıktı{
+    height: 64px;
+    width: 64px;
+}
+
+.resim{
+    display: grid;
+    grid-template-columns: 8px 8px 8px 8px 8px 8px 8px 8px;
+}
+
+.pixel{
+    height: 8px;
+    width: 8px;
+}
+
+.deşifre-kodu{
+    width: 4rem;
+}
+
+.deşifrelenmiş{
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+}

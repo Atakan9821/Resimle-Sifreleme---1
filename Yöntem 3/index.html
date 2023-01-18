@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resimle Şifreleme - 1</title>
+    <link rel="stylesheet" href="Yöntem 3.css" />
+    <script src="Yöntem 3.js" defer> </script>
+    
+</head>
+<body>
+    <h1> Resimle Şifreleme - 1 </h1>
+    <div class="girdi">
+        <label for="metin"> Mesajı Giriniz: </label>
+        <input type="text" id="metin" name="metin" required />
+        <br>
+        <br>
+        <label for="ortak-anahtar"> Şifreleme Kodunu Giriniz: </label>
+        <input type="text" id="ortak-anahtar" name="ortak-anahtar" min=1 smax="10000" required /> 
+        <br>
+        <br>
+        <button type="button" class="gönder" onclick="mesajıGönder()"> Mesajı Gönder </button>
+    </div>
+
+    <div class="çıktı">
+        <h2> Mesajlar </h2>
+        <br>
+        <div class="mesajlar"> </div>
+    </div>
+    
+</html>
+</body>
+</html>
